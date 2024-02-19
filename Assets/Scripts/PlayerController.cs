@@ -95,10 +95,18 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    Vector3 RandomForce()
+    private void OnTriggerEnter(Collider other)
     {
-        return Vector3.up * Random.Range(minSpeed, maxSpeed);
+        if (other.gameObject.CompareTag(Tags.TURN_LEFT_TAG))
+        {
+            transform.rotation = Quaternion.Euler(transform.rotation.x, ConstantValues.PLAYER_TURN_LEFT_Y_ASIX_VALUE, transform.rotation.z);
+        }
     }
+
+    //Vector3 RandomForce()
+    //{
+    //    return Vector3.up * Random.Range(minSpeed, maxSpeed);
+    //}
 
     float RandomTorque()
     {
@@ -122,4 +130,6 @@ public class PlayerController : MonoBehaviour
         newPS.transform.SetParent(transform);
         newPS.Play();
     }
+
+    
 }
