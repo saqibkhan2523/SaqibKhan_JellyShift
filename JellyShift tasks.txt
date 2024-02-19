@@ -1,0 +1,11 @@
+JellyShift:
+
+1-Make 41 levels
+2-Make endless mode
+3-Make turns on platforms
+4-Make player turn correctly on the platform
+5-Make camera take correct position after player makes the turn
+6-Make obstacle and player explode on collision
+7-Make first level as tutorial, teaching player about tapping
+8-Make cuts in platorm
+9-Apply player jump mechanism around cuts
