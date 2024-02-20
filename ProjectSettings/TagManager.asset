@@ -7,6 +7,8 @@ TagManager:
   - Wall
   - turnLeft
   - turnRight
+  - FxTemporaire
+  - Platform
   layers:
   - Default
   - TransparentFX
