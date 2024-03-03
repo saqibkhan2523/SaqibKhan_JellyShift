@@ -9,6 +9,7 @@ TagManager:
   - turnRight
   - FxTemporaire
   - Platform
+  - Instruction Trigger
   layers:
   - Default
   - TransparentFX
