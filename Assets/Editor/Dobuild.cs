@@ -35,7 +35,8 @@ public class Dobuild : MonoBehaviour
         };
 
         // Define the output path for the APK
-        string outputPath = "BuildsOutput/YourGameName.apk";
+        //string outputPath = "BuildsOutput/YourGameName.apk";
+        string outputPath = "BuildsOutput/GSJellyShift.aab";
 
         // Perform the build
         BuildPipeline.BuildPlayer(scenes, outputPath, BuildTarget.Android, BuildOptions.None);
